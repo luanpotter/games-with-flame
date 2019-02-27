@@ -20,3 +20,4 @@ flutter:
   assets:
    - assets/images/plane.png
    - assets/images/plane-2.png
+   - assets/images/clouds.png
