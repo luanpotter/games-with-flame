@@ -53,7 +53,7 @@ class Bullet extends AnimationComponent with HasGameRef {
 }
 
 class Explosion extends AnimationComponent {
-  Explosion(double x, double y) : super.sequenced(S * 32, S * 32, 'explosion.png', 5, textureWidth: 32.0) {
+  Explosion(double x, double y) : super.sequenced(S * 32, S * 32, 'explosion.png', 6, textureWidth: 32.0) {
     this.x = x;
     this.y = y;
     this.anchor = Anchor.center;
@@ -164,7 +164,7 @@ class Background extends Component with Resizable {
 
   @override
   void update(double t) {
-    if (!bgSprite.loaded()) {
+    if (!bgSprite.loaded() || size == null) {
       return;
     }
     p.x += velocity.x * t;
