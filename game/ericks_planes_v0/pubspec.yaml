@@ -21,3 +21,5 @@ flutter:
    - assets/images/plane.png
    - assets/images/plane-2.png
    - assets/images/clouds.png
+   - assets/images/bullet-2.png
+   - assets/images/explosion.png
