@@ -218,7 +218,7 @@ class MyGame extends BaseGame {
       randomEnemy();
       if (r.nextDouble() < CHANCE_INCREASE_CHANCE) {
         chanceOfSpawn *= CHANCE_INCREASE_MULTIPLIER;
-        chanceOfSpawn = chanceOfSpawn.clamp(0, 1);
+        chanceOfSpawn = chanceOfSpawn.clamp(0.0, 1.0);
       }
     }
   }
