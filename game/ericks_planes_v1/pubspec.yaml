@@ -1,0 +1,20 @@
+name: ericks_planes_v1
+description: A new Flutter project.
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flame: 0.10.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  assets:
+   - assets/images/plane.png
+   - assets/images/clouds.png
